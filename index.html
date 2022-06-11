@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script Quizzes</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header>
+        <div id="lnkHighScore"><a href="javascript:showHighScore()">View High Score</a></div>
+        <div id="Score">75</div>
+    </header>
+    <main>
+    <div id='Intro' class="page">
+        <h1>Start Quiz Challenge</h1>
+        <button id="btnStart">Start</button>
+    </div>
+    <div id="Quiz" class="page">
+        <h2 id="QuestionText"> Questions </h2>
+        <div id="Choices">
+
+        </div>
+        <div id="Result"> </div>
+    </div>
+    <div id="Game-Over" class="page">
+        <h2> All Done</h2>
+        <div>Your final score is: <span id="finalScore"></span></div>
+        <div>Enter your Initials: <input type="text" id="Initials"/> <button id="btnSubmit">Submit</button></div>
+    </div>
+    <div id="HighScore" class="page">
+        <h2> High Score</h2>
+        <ol id="ListOfHighScores">
+
+        </ol>
+        <button id="btnBack">Go back</button>
+        <button id="btnReset">Reset Scores</button>
+    </div>
+    </main>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

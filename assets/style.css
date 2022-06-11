@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body {
+    background: grey;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+#btnStart {
+    border: none;
+    position: absolute;
+    top: 70%;
+    left: 40%; 
+
+}
+header {
+    height: 35px;
+    font-size: 20px;
+    color:blue;
+    background-color: aliceblue;
+}
+
+#btnStart,
+#btnBack,
+#btnReset,
+#btnSubmit
+ {
+    font-size: 20px; background-color:darkslategrey; color: whitesmoke;
+    font-weight: 300;
+    padding: 9px 20px;
+    cursor: pointer;
+    border-radius: 5%;
+    border: none;
+
+}
+
+#Intro, #Quiz, #Game-Over, #HighScore{
+    width: 350px;
+    background-color:bisque;
+    color:black;
+}
+
+#Intro h1 {
+    font-size: 35px;
+    height: 200px;
+    text-align: center
+
+}
+
+#QuestionText {
+    text-align: center;
+    height: 80px;
+    font-size: 23px;
+}
+
+#Game-Over h2 {
+    padding: 4%;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(186, 211, 215);
+}
+#Game-Over {
+   padding: 10%;
+   font-size: large;
+   text-align: center;
+}
+#Initials {
+    padding: 3%;
+}
+.page {
+    display: none
+}
+.page.current {
+    display: block
+}
+
+.correct {
+    color: rgb(9, 0, 128);
+}
+
+.wrong,
+.correct{
+   padding: 5%;
+    border-top: solid black 1px;
+    font-size: 18px;
+}
+.wrong {
+    color: rgb(117, 20, 20);
+}
+
+
+#Choices>div {
+    background-color: rgb(186, 211, 215);
+    font-size: 20px;
+    padding: 20px;
+    margin:5px;
+    border-radius: 2%;
+}
+
+#Choices>div:hover {
+    background-color: rgb(138, 168, 168);
+    cursor: pointer;
+}
+
+header > div {
+    display:inline-block;
+
+}
+#Score {
+    float:right;
+}
+#HighScore {
+    padding: 10%;
+    text-align: center;
+ }
+ #HighScore h2{
+    padding: 3% ;
+    font-size: 30px; background-color:darkslategrey; color: whitesmoke;
+ }
+ #ListOfHighScores{
+    padding: 5% ;
+    color: blue;
+    font-weight: 100;
+    font-size: 120%;
+ }
